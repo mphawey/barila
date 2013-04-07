@@ -123,8 +123,9 @@
         		if ( function_exists( 'woo_custom_navigation_output') )
 					woo_custom_navigation_output();
 			} else { ?>
+			
 	            <?php if ( is_page() ) $highlight = "page_item"; else $highlight = "page_item current_page_item"; ?>
-	            <li class="<?php echo $highlight; ?>"><a href="<?php echo home_url( '/' ); ?>"><?php _e( 'Home', 'woothemes' ) ?></a></li>
+	            <li class="<?php echo $highlight; ?>"><a href="<?php echo home_url( '/' ); ?>"></a></li>
 	            <?php
 	    			wp_list_pages( 'sort_column=menu_order&depth=6&title_li=&exclude=' );
 			}

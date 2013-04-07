@@ -31,7 +31,7 @@ function barilafrontpage_do_page() {
 			<table class="form-table">
 			<?php 
 				// 9 = total of slides +1
-				for ($i=1; $i < 9; $i++) { 
+				for ($i=1; $i < 10; $i++) { 
 			?>
 				<tr style="border-top:1px solid #CCC;" valign="top"><th scope="row"><h3>Element #<?php echo $i; ?></h3></th>
 					<td></td>

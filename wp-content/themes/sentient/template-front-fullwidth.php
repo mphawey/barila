@@ -14,7 +14,7 @@
             $options = get_option('barila_front');
 
             // 9 = total of slides +1
-            for ($i=1; $i < 9; $i++) { 
+            for ($i=1; $i < 10; $i++) { 
                 $imgurl = $options["imgurl$i"];
                 $title = $options["catname$i"];
                 $class = $options["class$i"];
